@@ -10,10 +10,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for MaterialControls-Dynamic.
-FOUNDATION_EXPORT double MaterialControls_DynamicVersionNumber;
+FOUNDATION_EXPORT double MaterialControlsVersionNumber;
 
 //! Project version string for MaterialControls-Dynamic.
-FOUNDATION_EXPORT const unsigned char MaterialControls_DynamicVersionString[];
+FOUNDATION_EXPORT const unsigned char MaterialControlsVersionString[];
 
 
 #import "AutoResizeTextView.h"
