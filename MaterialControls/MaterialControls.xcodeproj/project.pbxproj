@@ -138,6 +138,48 @@
 		D32A9C161E2567E70027BA4F /* UIView+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81CB1DAF8D7B00ACF543 /* UIView+MDExtension.m */; };
 		D32A9C171E2567E70027BA4F /* MaterialControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D48EE41DAF7412007CF4EC /* MaterialControls.m */; };
 		D32A9C181E2568D70027BA4F /* MaterialControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D48EE31DAF7412007CF4EC /* MaterialControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3EBCB521E257571009D3DAF /* MDProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD819F1DAF8D7B00ACF543 /* MDProgress.h */; };
+		D3EBCB531E257571009D3DAF /* MDCircularProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 925465CD1DAFBE8100D4E20D /* MDCircularProgressLayer.h */; };
+		D3EBCB541E257571009D3DAF /* MDLinearProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 925465CF1DAFBE8100D4E20D /* MDLinearProgressLayer.h */; };
+		D3EBCB551E257571009D3DAF /* MDProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 925465D11DAFBE8100D4E20D /* MDProgressLayer.h */; };
+		D3EBCB561E257571009D3DAF /* MDSuggestPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9210862E1DAFB279005BECA4 /* MDSuggestPopupView.h */; };
+		D3EBCB571E257571009D3DAF /* MDSuggestTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086301DAFB279005BECA4 /* MDSuggestTableView.h */; };
+		D3EBCB581E257571009D3DAF /* MDBubbleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086211DAFB24B005BECA4 /* MDBubbleLabel.h */; };
+		D3EBCB591E257571009D3DAF /* MDSliderIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086231DAFB24B005BECA4 /* MDSliderIcon.h */; };
+		D3EBCB5A1E257571009D3DAF /* MDSliderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086251DAFB24B005BECA4 /* MDSliderThumbView.h */; };
+		D3EBCB5B1E257571009D3DAF /* MDSliderTickMarksView.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086271DAFB24B005BECA4 /* MDSliderTickMarksView.h */; };
+		D3EBCB5C1E257571009D3DAF /* MDDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9210860E1DAFB213005BECA4 /* MDDeviceHelper.h */; };
+		D3EBCB5D1E257571009D3DAF /* MDMathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086101DAFB213005BECA4 /* MDMathHelper.h */; };
+		D3EBCB5E1E257571009D3DAF /* NSDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086121DAFB213005BECA4 /* NSDateHelper.h */; };
+		D3EBCB5F1E257571009D3DAF /* UIColorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086141DAFB213005BECA4 /* UIColorHelper.h */; };
+		D3EBCB601E257571009D3DAF /* UIFontHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086161DAFB213005BECA4 /* UIFontHelper.h */; };
+		D3EBCB611E257571009D3DAF /* UIViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086181DAFB213005BECA4 /* UIViewHelper.h */; };
+		D3EBCB621E257571009D3DAF /* MDTimePickerDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086041DAFB1CB005BECA4 /* MDTimePickerDialog.h */; };
+		D3EBCB631E257571009D3DAF /* NSCalendarHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086061DAFB1CB005BECA4 /* NSCalendarHelper.h */; };
+		D3EBCB641E257571009D3DAF /* NSDate+MDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 921086081DAFB1CB005BECA4 /* NSDate+MDExtension.h */; };
+		D3EBCB651E257571009D3DAF /* MDCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085E21DAFB14A005BECA4 /* MDCalendar.h */; };
+		D3EBCB661E257571009D3DAF /* MDCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085E41DAFB14A005BECA4 /* MDCalendarCell.h */; };
+		D3EBCB671E257571009D3DAF /* MDCalendarDateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085E61DAFB14A005BECA4 /* MDCalendarDateHeader.h */; };
+		D3EBCB681E257571009D3DAF /* MDCalendarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085E81DAFB14A005BECA4 /* MDCalendarHeader.h */; };
+		D3EBCB691E257571009D3DAF /* MDCalendarYearSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085EA1DAFB14A005BECA4 /* MDCalendarYearSelector.h */; };
+		D3EBCB6A1E257571009D3DAF /* MDCalendarYearSelectorViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085EC1DAFB14A005BECA4 /* MDCalendarYearSelectorViewCell.h */; };
+		D3EBCB6B1E257571009D3DAF /* MDDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085EE1DAFB14A005BECA4 /* MDDatePicker.h */; };
+		D3EBCB6C1E257571009D3DAF /* MDDatePickerDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 921085F01DAFB14A005BECA4 /* MDDatePickerDialog.h */; };
+		D3EBCB6D1E257571009D3DAF /* AutoResizeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81741DAF8D7B00ACF543 /* AutoResizeTextView.h */; };
+		D3EBCB6E1E257571009D3DAF /* MDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD819A1DAF8D7B00ACF543 /* MDButton.h */; };
+		D3EBCB6F1E257571009D3DAF /* MDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD819C1DAF8D7B00ACF543 /* MDCollectionViewCell.h */; };
+		D3EBCB701E257571009D3DAF /* MDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD819E1DAF8D7B00ACF543 /* MDConstants.h */; };
+		D3EBCB711E257571009D3DAF /* MDRippleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81A11DAF8D7B00ACF543 /* MDRippleLayer.h */; };
+		D3EBCB721E257571009D3DAF /* MDSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81A31DAF8D7B00ACF543 /* MDSlider.h */; };
+		D3EBCB731E257571009D3DAF /* MDSnackbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81A51DAF8D7B00ACF543 /* MDSnackbar.h */; };
+		D3EBCB741E257571009D3DAF /* MDSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81A71DAF8D7B00ACF543 /* MDSwitch.h */; };
+		D3EBCB751E257571009D3DAF /* MDTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81A91DAF8D7B00ACF543 /* MDTabBar.h */; };
+		D3EBCB761E257571009D3DAF /* MDTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81AB1DAF8D7B00ACF543 /* MDTabBarViewController.h */; };
+		D3EBCB771E257571009D3DAF /* MDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81AD1DAF8D7B00ACF543 /* MDTableViewCell.h */; };
+		D3EBCB781E257571009D3DAF /* MDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81AF1DAF8D7B00ACF543 /* MDTextField.h */; };
+		D3EBCB791E257571009D3DAF /* MDToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81B11DAF8D7B00ACF543 /* MDToast.h */; };
+		D3EBCB7A1E257571009D3DAF /* MDTouchGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81B31DAF8D7B00ACF543 /* MDTouchGestureRecognizer.h */; };
+		D3EBCB7B1E257571009D3DAF /* UIView+MDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD81CA1DAF8D7B00ACF543 /* UIView+MDExtension.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -489,6 +531,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32A9C181E2568D70027BA4F /* MaterialControls.h in Headers */,
+				D3EBCB521E257571009D3DAF /* MDProgress.h in Headers */,
+				D3EBCB531E257571009D3DAF /* MDCircularProgressLayer.h in Headers */,
+				D3EBCB541E257571009D3DAF /* MDLinearProgressLayer.h in Headers */,
+				D3EBCB551E257571009D3DAF /* MDProgressLayer.h in Headers */,
+				D3EBCB561E257571009D3DAF /* MDSuggestPopupView.h in Headers */,
+				D3EBCB571E257571009D3DAF /* MDSuggestTableView.h in Headers */,
+				D3EBCB581E257571009D3DAF /* MDBubbleLabel.h in Headers */,
+				D3EBCB591E257571009D3DAF /* MDSliderIcon.h in Headers */,
+				D3EBCB5A1E257571009D3DAF /* MDSliderThumbView.h in Headers */,
+				D3EBCB5B1E257571009D3DAF /* MDSliderTickMarksView.h in Headers */,
+				D3EBCB5C1E257571009D3DAF /* MDDeviceHelper.h in Headers */,
+				D3EBCB5D1E257571009D3DAF /* MDMathHelper.h in Headers */,
+				D3EBCB5E1E257571009D3DAF /* NSDateHelper.h in Headers */,
+				D3EBCB5F1E257571009D3DAF /* UIColorHelper.h in Headers */,
+				D3EBCB601E257571009D3DAF /* UIFontHelper.h in Headers */,
+				D3EBCB611E257571009D3DAF /* UIViewHelper.h in Headers */,
+				D3EBCB621E257571009D3DAF /* MDTimePickerDialog.h in Headers */,
+				D3EBCB631E257571009D3DAF /* NSCalendarHelper.h in Headers */,
+				D3EBCB641E257571009D3DAF /* NSDate+MDExtension.h in Headers */,
+				D3EBCB651E257571009D3DAF /* MDCalendar.h in Headers */,
+				D3EBCB661E257571009D3DAF /* MDCalendarCell.h in Headers */,
+				D3EBCB671E257571009D3DAF /* MDCalendarDateHeader.h in Headers */,
+				D3EBCB681E257571009D3DAF /* MDCalendarHeader.h in Headers */,
+				D3EBCB691E257571009D3DAF /* MDCalendarYearSelector.h in Headers */,
+				D3EBCB6A1E257571009D3DAF /* MDCalendarYearSelectorViewCell.h in Headers */,
+				D3EBCB6B1E257571009D3DAF /* MDDatePicker.h in Headers */,
+				D3EBCB6C1E257571009D3DAF /* MDDatePickerDialog.h in Headers */,
+				D3EBCB6D1E257571009D3DAF /* AutoResizeTextView.h in Headers */,
+				D3EBCB6E1E257571009D3DAF /* MDButton.h in Headers */,
+				D3EBCB6F1E257571009D3DAF /* MDCollectionViewCell.h in Headers */,
+				D3EBCB701E257571009D3DAF /* MDConstants.h in Headers */,
+				D3EBCB711E257571009D3DAF /* MDRippleLayer.h in Headers */,
+				D3EBCB721E257571009D3DAF /* MDSlider.h in Headers */,
+				D3EBCB731E257571009D3DAF /* MDSnackbar.h in Headers */,
+				D3EBCB741E257571009D3DAF /* MDSwitch.h in Headers */,
+				D3EBCB751E257571009D3DAF /* MDTabBar.h in Headers */,
+				D3EBCB761E257571009D3DAF /* MDTabBarViewController.h in Headers */,
+				D3EBCB771E257571009D3DAF /* MDTableViewCell.h in Headers */,
+				D3EBCB781E257571009D3DAF /* MDTextField.h in Headers */,
+				D3EBCB791E257571009D3DAF /* MDToast.h in Headers */,
+				D3EBCB7A1E257571009D3DAF /* MDTouchGestureRecognizer.h in Headers */,
+				D3EBCB7B1E257571009D3DAF /* UIView+MDExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +951,7 @@
 				D32A9BEC1E2567A30027BA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
