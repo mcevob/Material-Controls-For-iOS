@@ -95,6 +95,49 @@
 		929304971DAF8786005E4CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929304961DAF8786005E4CAC /* CoreGraphics.framework */; };
 		92B2BC6D1DB0807F00986B23 /* MDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A01DAF8D7B00ACF543 /* MDProgress.m */; settings = {COMPILER_FLAGS = "-ObjC"; }; };
 		92D48EE61DAF7412007CF4EC /* MaterialControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92D48EE31DAF7412007CF4EC /* MaterialControls.h */; };
+		D32A9BEE1E2567E70027BA4F /* MDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A01DAF8D7B00ACF543 /* MDProgress.m */; };
+		D32A9BEF1E2567E70027BA4F /* MDCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925465CE1DAFBE8100D4E20D /* MDCircularProgressLayer.m */; };
+		D32A9BF01E2567E70027BA4F /* MDLinearProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925465D01DAFBE8100D4E20D /* MDLinearProgressLayer.m */; };
+		D32A9BF11E2567E70027BA4F /* MDProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925465D21DAFBE8100D4E20D /* MDProgressLayer.m */; };
+		D32A9BF21E2567E70027BA4F /* MDSuggestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9210862F1DAFB279005BECA4 /* MDSuggestPopupView.m */; };
+		D32A9BF31E2567E70027BA4F /* MDSuggestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086311DAFB279005BECA4 /* MDSuggestTableView.m */; };
+		D32A9BF41E2567E70027BA4F /* MDBubbleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086221DAFB24B005BECA4 /* MDBubbleLabel.m */; };
+		D32A9BF51E2567E70027BA4F /* MDSliderIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086241DAFB24B005BECA4 /* MDSliderIcon.m */; };
+		D32A9BF61E2567E70027BA4F /* MDSliderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086261DAFB24B005BECA4 /* MDSliderThumbView.m */; };
+		D32A9BF71E2567E70027BA4F /* MDSliderTickMarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086281DAFB24B005BECA4 /* MDSliderTickMarksView.m */; };
+		D32A9BF81E2567E70027BA4F /* MDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9210860F1DAFB213005BECA4 /* MDDeviceHelper.m */; };
+		D32A9BF91E2567E70027BA4F /* MDMathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086111DAFB213005BECA4 /* MDMathHelper.m */; };
+		D32A9BFA1E2567E70027BA4F /* NSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086131DAFB213005BECA4 /* NSDateHelper.m */; };
+		D32A9BFB1E2567E70027BA4F /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086151DAFB213005BECA4 /* UIColorHelper.m */; };
+		D32A9BFC1E2567E70027BA4F /* UIFontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086171DAFB213005BECA4 /* UIFontHelper.m */; };
+		D32A9BFD1E2567E70027BA4F /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086191DAFB213005BECA4 /* UIViewHelper.m */; };
+		D32A9BFE1E2567E70027BA4F /* MDTimePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086051DAFB1CB005BECA4 /* MDTimePickerDialog.m */; };
+		D32A9BFF1E2567E70027BA4F /* NSCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086071DAFB1CB005BECA4 /* NSCalendarHelper.m */; };
+		D32A9C001E2567E70027BA4F /* NSDate+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 921086091DAFB1CB005BECA4 /* NSDate+MDExtension.m */; };
+		D32A9C011E2567E70027BA4F /* MDCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085E31DAFB14A005BECA4 /* MDCalendar.m */; };
+		D32A9C021E2567E70027BA4F /* MDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085E51DAFB14A005BECA4 /* MDCalendarCell.m */; };
+		D32A9C031E2567E70027BA4F /* MDCalendarDateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085E71DAFB14A005BECA4 /* MDCalendarDateHeader.m */; };
+		D32A9C041E2567E70027BA4F /* MDCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085E91DAFB14A005BECA4 /* MDCalendarHeader.m */; };
+		D32A9C051E2567E70027BA4F /* MDCalendarYearSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085EB1DAFB14A005BECA4 /* MDCalendarYearSelector.m */; };
+		D32A9C061E2567E70027BA4F /* MDCalendarYearSelectorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085ED1DAFB14A005BECA4 /* MDCalendarYearSelectorViewCell.m */; };
+		D32A9C071E2567E70027BA4F /* MDDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085EF1DAFB14A005BECA4 /* MDDatePicker.m */; };
+		D32A9C081E2567E70027BA4F /* MDDatePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 921085F11DAFB14A005BECA4 /* MDDatePickerDialog.m */; };
+		D32A9C091E2567E70027BA4F /* AutoResizeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81751DAF8D7B00ACF543 /* AutoResizeTextView.m */; };
+		D32A9C0A1E2567E70027BA4F /* MDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD819B1DAF8D7B00ACF543 /* MDButton.m */; };
+		D32A9C0B1E2567E70027BA4F /* MDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD819D1DAF8D7B00ACF543 /* MDCollectionViewCell.m */; };
+		D32A9C0C1E2567E70027BA4F /* MDRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A21DAF8D7B00ACF543 /* MDRippleLayer.m */; };
+		D32A9C0D1E2567E70027BA4F /* MDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A41DAF8D7B00ACF543 /* MDSlider.m */; };
+		D32A9C0E1E2567E70027BA4F /* MDSnackbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A61DAF8D7B00ACF543 /* MDSnackbar.m */; };
+		D32A9C0F1E2567E70027BA4F /* MDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81A81DAF8D7B00ACF543 /* MDSwitch.m */; };
+		D32A9C101E2567E70027BA4F /* MDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81AA1DAF8D7B00ACF543 /* MDTabBar.m */; };
+		D32A9C111E2567E70027BA4F /* MDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81AC1DAF8D7B00ACF543 /* MDTabBarViewController.m */; };
+		D32A9C121E2567E70027BA4F /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81AE1DAF8D7B00ACF543 /* MDTableViewCell.m */; };
+		D32A9C131E2567E70027BA4F /* MDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81B01DAF8D7B00ACF543 /* MDTextField.m */; };
+		D32A9C141E2567E70027BA4F /* MDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81B21DAF8D7B00ACF543 /* MDToast.m */; };
+		D32A9C151E2567E70027BA4F /* MDTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81B41DAF8D7B00ACF543 /* MDTouchGestureRecognizer.m */; };
+		D32A9C161E2567E70027BA4F /* UIView+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD81CB1DAF8D7B00ACF543 /* UIView+MDExtension.m */; };
+		D32A9C171E2567E70027BA4F /* MaterialControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D48EE41DAF7412007CF4EC /* MaterialControls.m */; };
+		D32A9C181E2568D70027BA4F /* MaterialControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D48EE31DAF7412007CF4EC /* MaterialControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -242,6 +285,9 @@
 		92D48EE01DAF7412007CF4EC /* libMaterialControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMaterialControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D48EE31DAF7412007CF4EC /* MaterialControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialControls.h; sourceTree = "<group>"; };
 		92D48EE41DAF7412007CF4EC /* MaterialControls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialControls.m; sourceTree = "<group>"; };
+		D32A9BE61E2567A30027BA4F /* MaterialControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32A9BE81E2567A30027BA4F /* MaterialControls-Dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaterialControls-Dynamic.h"; sourceTree = "<group>"; };
+		D32A9BE91E2567A30027BA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +298,13 @@
 				929304971DAF8786005E4CAC /* CoreGraphics.framework in Frameworks */,
 				929304951DAF8780005E4CAC /* Foundation.framework in Frameworks */,
 				929304931DAF876B005E4CAC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32A9BE21E2567A30027BA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +414,7 @@
 			isa = PBXGroup;
 			children = (
 				92D48EE21DAF7412007CF4EC /* MaterialControls */,
+				D32A9BE71E2567A30027BA4F /* MaterialControls-Dynamic */,
 				92D48EE11DAF7412007CF4EC /* Products */,
 				929304911DAF876B005E4CAC /* Frameworks */,
 			);
@@ -370,6 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				92D48EE01DAF7412007CF4EC /* libMaterialControls.a */,
+				D32A9BE61E2567A30027BA4F /* MaterialControls.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -417,7 +472,27 @@
 			path = MaterialControls;
 			sourceTree = "<group>";
 		};
+		D32A9BE71E2567A30027BA4F /* MaterialControls-Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				D32A9BE81E2567A30027BA4F /* MaterialControls-Dynamic.h */,
+				D32A9BE91E2567A30027BA4F /* Info.plist */,
+			);
+			path = "MaterialControls-Dynamic";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D32A9BE31E2567A30027BA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32A9C181E2568D70027BA4F /* MaterialControls.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		92D48EDF1DAF7412007CF4EC /* MaterialControls */ = {
@@ -437,6 +512,24 @@
 			productReference = 92D48EE01DAF7412007CF4EC /* libMaterialControls.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		D32A9BE51E2567A30027BA4F /* MaterialControls-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32A9BED1E2567A30027BA4F /* Build configuration list for PBXNativeTarget "MaterialControls-Dynamic" */;
+			buildPhases = (
+				D32A9BE11E2567A30027BA4F /* Sources */,
+				D32A9BE21E2567A30027BA4F /* Frameworks */,
+				D32A9BE31E2567A30027BA4F /* Headers */,
+				D32A9BE41E2567A30027BA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaterialControls-Dynamic";
+			productName = "MaterialControls-Dynamic";
+			productReference = D32A9BE61E2567A30027BA4F /* MaterialControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -449,6 +542,10 @@
 					92D48EDF1DAF7412007CF4EC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 854MF4G8EF;
+						ProvisioningStyle = Automatic;
+					};
+					D32A9BE51E2567A30027BA4F = {
+						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -466,9 +563,20 @@
 			projectRoot = "";
 			targets = (
 				92D48EDF1DAF7412007CF4EC /* MaterialControls */,
+				D32A9BE51E2567A30027BA4F /* MaterialControls-Dynamic */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32A9BE41E2567A30027BA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92D48EDC1DAF7412007CF4EC /* Sources */ = {
@@ -517,6 +625,55 @@
 				925465AF1DAFB51600D4E20D /* UIViewHelper.m in Sources */,
 				925465A41DAFB4FF00D4E20D /* MDSuggestPopupView.m in Sources */,
 				925465A51DAFB4FF00D4E20D /* MDSuggestTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32A9BE11E2567A30027BA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32A9C0E1E2567E70027BA4F /* MDSnackbar.m in Sources */,
+				D32A9C161E2567E70027BA4F /* UIView+MDExtension.m in Sources */,
+				D32A9BEF1E2567E70027BA4F /* MDCircularProgressLayer.m in Sources */,
+				D32A9BFA1E2567E70027BA4F /* NSDateHelper.m in Sources */,
+				D32A9C021E2567E70027BA4F /* MDCalendarCell.m in Sources */,
+				D32A9BFE1E2567E70027BA4F /* MDTimePickerDialog.m in Sources */,
+				D32A9BFD1E2567E70027BA4F /* UIViewHelper.m in Sources */,
+				D32A9C131E2567E70027BA4F /* MDTextField.m in Sources */,
+				D32A9C0F1E2567E70027BA4F /* MDSwitch.m in Sources */,
+				D32A9C151E2567E70027BA4F /* MDTouchGestureRecognizer.m in Sources */,
+				D32A9C111E2567E70027BA4F /* MDTabBarViewController.m in Sources */,
+				D32A9BF41E2567E70027BA4F /* MDBubbleLabel.m in Sources */,
+				D32A9C071E2567E70027BA4F /* MDDatePicker.m in Sources */,
+				D32A9C141E2567E70027BA4F /* MDToast.m in Sources */,
+				D32A9C001E2567E70027BA4F /* NSDate+MDExtension.m in Sources */,
+				D32A9BF71E2567E70027BA4F /* MDSliderTickMarksView.m in Sources */,
+				D32A9C051E2567E70027BA4F /* MDCalendarYearSelector.m in Sources */,
+				D32A9BF01E2567E70027BA4F /* MDLinearProgressLayer.m in Sources */,
+				D32A9C0B1E2567E70027BA4F /* MDCollectionViewCell.m in Sources */,
+				D32A9C061E2567E70027BA4F /* MDCalendarYearSelectorViewCell.m in Sources */,
+				D32A9BF61E2567E70027BA4F /* MDSliderThumbView.m in Sources */,
+				D32A9C0A1E2567E70027BA4F /* MDButton.m in Sources */,
+				D32A9C171E2567E70027BA4F /* MaterialControls.m in Sources */,
+				D32A9BEE1E2567E70027BA4F /* MDProgress.m in Sources */,
+				D32A9C031E2567E70027BA4F /* MDCalendarDateHeader.m in Sources */,
+				D32A9BFB1E2567E70027BA4F /* UIColorHelper.m in Sources */,
+				D32A9C081E2567E70027BA4F /* MDDatePickerDialog.m in Sources */,
+				D32A9BF31E2567E70027BA4F /* MDSuggestTableView.m in Sources */,
+				D32A9C091E2567E70027BA4F /* AutoResizeTextView.m in Sources */,
+				D32A9BF11E2567E70027BA4F /* MDProgressLayer.m in Sources */,
+				D32A9BF91E2567E70027BA4F /* MDMathHelper.m in Sources */,
+				D32A9C011E2567E70027BA4F /* MDCalendar.m in Sources */,
+				D32A9C101E2567E70027BA4F /* MDTabBar.m in Sources */,
+				D32A9C0C1E2567E70027BA4F /* MDRippleLayer.m in Sources */,
+				D32A9C0D1E2567E70027BA4F /* MDSlider.m in Sources */,
+				D32A9BF51E2567E70027BA4F /* MDSliderIcon.m in Sources */,
+				D32A9BF21E2567E70027BA4F /* MDSuggestPopupView.m in Sources */,
+				D32A9C041E2567E70027BA4F /* MDCalendarHeader.m in Sources */,
+				D32A9BF81E2567E70027BA4F /* MDDeviceHelper.m in Sources */,
+				D32A9BFF1E2567E70027BA4F /* NSCalendarHelper.m in Sources */,
+				D32A9BFC1E2567E70027BA4F /* UIFontHelper.m in Sources */,
+				D32A9C121E2567E70027BA4F /* MDTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +788,57 @@
 			};
 			name = Release;
 		};
+		D32A9BEB1E2567A30027BA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "MaterialControls-Dynamic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.mcevoy.MaterialControls-Dynamic";
+				PRODUCT_NAME = MaterialControls;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D32A9BEC1E2567A30027BA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "MaterialControls-Dynamic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.mcevoy.MaterialControls-Dynamic";
+				PRODUCT_NAME = MaterialControls;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,6 +859,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D32A9BED1E2567A30027BA4F /* Build configuration list for PBXNativeTarget "MaterialControls-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32A9BEB1E2567A30027BA4F /* Debug */,
+				D32A9BEC1E2567A30027BA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
