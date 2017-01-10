@@ -6,7 +6,15 @@
 //  Copyright © 2016 FPT Software. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for MaterialControls-Dynamic.
+FOUNDATION_EXPORT double MaterialControls_DynamicVersionNumber;
+
+//! Project version string for MaterialControls-Dynamic.
+FOUNDATION_EXPORT const unsigned char MaterialControls_DynamicVersionString[];
+
 
 #import "AutoResizeTextView.h"
 #import "MDBubbleLabel.h"
