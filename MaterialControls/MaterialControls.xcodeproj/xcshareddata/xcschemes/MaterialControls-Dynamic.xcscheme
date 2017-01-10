@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D32A9BE51E2567A30027BA4F"
-               BuildableName = "MaterialControls-Dynamic.framework"
+               BuildableName = "MaterialControls.framework"
                BlueprintName = "MaterialControls-Dynamic"
                ReferencedContainer = "container:MaterialControls.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D32A9BE51E2567A30027BA4F"
-            BuildableName = "MaterialControls-Dynamic.framework"
+            BuildableName = "MaterialControls.framework"
             BlueprintName = "MaterialControls-Dynamic"
             ReferencedContainer = "container:MaterialControls.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D32A9BE51E2567A30027BA4F"
-            BuildableName = "MaterialControls-Dynamic.framework"
+            BuildableName = "MaterialControls.framework"
             BlueprintName = "MaterialControls-Dynamic"
             ReferencedContainer = "container:MaterialControls.xcodeproj">
          </BuildableReference>
